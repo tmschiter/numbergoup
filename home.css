@@ -38,8 +38,6 @@
 
 #info {
     margin-top: 7rem;
-    border-top: solid 1px #e6e6e6;
-    border-bottom: solid 1px #e6e6e6;
 }
 
 #info p {
@@ -82,7 +80,6 @@
 }
 
 #right {
-    align-items: flex-start;
 }
 
 #recruitment {
@@ -117,7 +114,6 @@
     }
 
     #main {
-        flex-direction: column;
         align-items: center;
     }
 }
