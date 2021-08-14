@@ -1,0 +1,149 @@
+#header {
+    margin-top: 1rem;
+}
+
+#header-title {
+    font-size: 3.5rem;
+    color: #FF8000;
+}
+
+#header-image {
+    width: 100px;
+}
+
+#header-links { 
+    width: 100rem;
+    margin-top: 4rem;
+}
+
+.header-link {
+    font-size: 2.5rem;
+    margin-left: 6rem;
+    margin-right: 6rem;
+    text-decoration: none;
+}
+
+#apply-link {
+    color: #FF8000;
+}
+
+#main {
+    margin-bottom: 2rem;
+    align-items: flex-start;
+}
+
+#left {
+    justify-content: flex-start;
+}
+
+#info {
+    margin-top: 8rem;
+    border-top: solid 1px #e6e6e6;
+    border-bottom: solid 1px #e6e6e6;
+}
+
+#info p {
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+#blog h1 {
+    font-size: 4rem;
+    margin-top: 4rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 0;
+}
+
+#date {
+    font-size: 2.5rem !important;
+    margin-bottom: 1rem !important;
+}
+
+#blog p {
+    font-size: 2rem;
+    margin: 0;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    text-align: center;
+}
+
+.image {
+    margin-top: 1rem;
+}
+
+#blog p {
+    width: 768px;
+}
+
+#blog img {
+    width: 768px;
+    border: 1px solid black;
+}
+
+#right {
+    align-items: flex-start;
+}
+
+#recruitment {
+    margin-top: 8rem;
+}
+
+#recruitment p {
+    color: #FF8000;
+    font-size: 2rem;
+    margin-top: 0rem;
+}
+
+#recruitment-header {
+    font-size: 3rem;
+    text-decoration: underline;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+}
+
+@media screen and (max-width: 1700px) {
+    
+    .flex-order-1 {
+        order: 1;
+    }
+
+    .flex-order-2 {
+        order: 2;
+    }
+
+    body > div {
+        flex-direction: column;
+    }
+
+    #main {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 1050px) {
+
+    #header-links {
+        width: 95vw;
+    }
+
+    #header-links > div {
+        flex-direction: column;
+    }
+
+    #header-links > div a {
+        margin-top: 1rem;
+    }
+}
+
+@media screen and (max-width: 800px) {
+
+    #blog p {
+        width: 95vw;
+    }
+
+    #blog img {
+        width: 95vw;
+    }
+}

@@ -1,0 +1,102 @@
+.roster-text {
+    font-size: 4rem;
+    margin-top: 6rem;
+}
+
+.player {
+    width: 30rem;
+    height: 8rem;
+    margin-top: 3rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+}
+
+.player-img {
+    width: 8rem;
+    border: 1px solid black;
+}
+
+.player-info {
+    width: 100%;
+    height: 100%;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.name {
+    font-size: 2rem;
+}
+
+.spec {
+    font-size: 1.6rem;
+}
+
+.links img {
+    width: 2.5rem;
+    border: solid 1px black;
+    border-radius: 4px;
+    background-color: #222;
+    padding: 1px;
+}
+
+.link {
+    margin-top: 0.4rem;
+    margin-left: 0.6rem;
+    margin-right: 0.6rem;
+}
+
+.dk {
+    color: #c41f3b;
+}
+
+.dh {
+    color: #a330c9;
+}
+
+.druid {
+    color: #ff7d0a;
+}
+
+.hunter {
+    color: #abd473;
+}
+
+.mage {
+    color: #69ccf0;
+}
+
+.monk {
+    color: #00ff96;
+}
+
+.paladin {
+    color: #f58cba;
+}
+
+.priest {
+    color: #ffffff;
+}
+
+.rogue {
+    color: #fff569;
+}
+
+.shaman {
+    color: #0070de;
+}
+
+.warlock {
+    color: #9482c9;
+}
+
+.warrior {
+    color: #c79c6e;
+}
+
+@media screen and (max-width: 675px) {
+
+    .player-block {
+        flex-direction: column;
+    }
+}
