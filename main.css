@@ -36,28 +36,28 @@ body {
 
 .flex-center {
     display: flex;
-    justify-content: left;
-    align-items: left;
+    justify-content: center;
+    align-items: center;
 }
 
 .flex-center-start {
     display: flex;
     justify-content: flex-start;
-    align-items: right;
+    align-items: center;
 }
 
 .flex-column {
     display: flex;
     flex-direction: column;
-    justify-content: left;
-    align-items: left;
+    justify-content: center;
+    align-items: center;
 }
 
 .flex-column-start {
     display: flex;
     flex-direction: column;
-    justify-content: right;
-    align-items: right;
+    justify-content: center;
+    align-items: center;
 }
 
 .flex-1 {
