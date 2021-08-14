@@ -24,7 +24,7 @@
 }
 
 #apply-link {
-    color: #FFFFFF;
+    color: #FF0000;
 }
 
 #main {
@@ -86,11 +86,11 @@
 }
 
 #recruitment {
-    margin-top: 8rem;
+    margin-top: 4rem;
 }
 
 #recruitment p {
-    color: #FF8000;
+    color: #FFFFFF;
     font-size: 2rem;
     margin-top: 0rem;
 }
