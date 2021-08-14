@@ -80,6 +80,7 @@
 }
 
 #right {
+    align-items: flex-start;
 }
 
 #recruitment {
