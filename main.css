@@ -37,13 +37,13 @@ body {
 .flex-center {
     display: flex;
     justify-content: left;
-    align-items: center;
+    align-items: left;
 }
 
 .flex-center-start {
     display: flex;
     justify-content: flex-start;
-    align-items: center;
+    align-items: right;
 }
 
 .flex-column {
