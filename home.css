@@ -38,6 +38,7 @@
 
 #info {
     margin-top: 7rem;
+    margin-left: 5rem;
 }
 
 #info p {
@@ -80,7 +81,8 @@
 }
 
 #right {
-    align-items: center;
+    align-items: flex-start;
+    margin-left: 5rem;
 }
 
 #recruitment {
